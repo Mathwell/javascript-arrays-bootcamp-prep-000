@@ -30,3 +30,7 @@ function destructivelyRemoveElementFromBeginningOfArray(array){
   array.shift()
   return(array)
 }
+
+function removeElementFromEndOfArray(array){
+  retun(array.slice(0, array.length-1))
+}
