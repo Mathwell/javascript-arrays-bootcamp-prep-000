@@ -23,7 +23,7 @@ function accessElementInArray(array, index){
 }
 
 function removeElementFromBeginningOfArray(array){
-  var newarray=array.shift(1)
+  var newarray=array.shift()
   return(newarray)
 }
 
